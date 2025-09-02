@@ -1,18 +1,16 @@
-## Getting Started
+# Caixa Eletrônico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto simples de Caixa Eletrônico em Java, usando Maven.
 
-## Folder Structure
+## Funcionalidades
+- Consultar saldo
+- Depósito
+- Saque
+- Sair do sistema
 
-The workspace contains two folders by default, where:
+## Como rodar
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Pelo Maven:
+```bash
+mvn compile
+mvn exec:java -Dexec.mainClass="com.seuusuario.caixaeletronico.CaixaEletronico"
