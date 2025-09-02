@@ -1,6 +1,6 @@
 # Caixa Eletrônico
 
-Projeto simples de Caixa Eletrônico em Java, usando Maven.
+Projeto simples de Caixa Eletrônico em Java
 
 ## Funcionalidades
 - Consultar saldo
@@ -8,9 +8,5 @@ Projeto simples de Caixa Eletrônico em Java, usando Maven.
 - Saque
 - Sair do sistema
 
-## Como rodar
-
-### Pelo Maven:
-```bash
 mvn compile
 mvn exec:java -Dexec.mainClass="com.seuusuario.caixaeletronico.CaixaEletronico"
